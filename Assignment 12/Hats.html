@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="Classes.js"></script> -->
+    <script src="AudPlayer.js"></script>
+    <script src="TripleLine.js"></script>
+</head>
+<body style="background-color: crimson;">
+    
+<p>
+    <center style="font-family: monospace;">
+        Play the sound
+    </center>
+</p>
+
+<br>
+
+<center>
+    <button type="button" onclick="playAudio()">
+        Play Audio
+        <audio src="Ba ba ba da bba.MP3" type="audio/MP3" id="AudioClip"></audio>
+    </button>
+    <br>
+    <img src="PeppinoGriffin.jpg">
+    <br>
+    
+
+    <br><br><br>
+    <p>
+        Create User
+        <br>
+        Username 
+        <input type="text" id="Name">
+        <br>
+        Password    
+        <input type="text" id="UPassword">
+        <br>
+        <button type="button" onclick="CreateUser()">Create User</button>
+    </p>
+    <br> <br>
+
+    <p>
+        Create a Card
+        <br>
+        <img src="Tarot.jpg" style="height: 250px;" style="width: 250px;">
+        <br>
+        Card Name
+        <input type="text" id="CardName"> <br>
+        Card Rarity
+        <input type="text" id="CardRarity"> <br>
+        <button type="button" onclick="CreateCard()">Create Card</button>
+    </p>
+    <br>
+    <p>
+        Cards
+        <p id="Cards" style="font-family: fantasy;">
+
+        </p>
+        
+    </p>
+
+</center>
+
+</body>
+</html>
